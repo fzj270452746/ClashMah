@@ -1,7 +1,14 @@
 {
   "permissions": {
     "allow": [
-      "Bash(xcodebuild:*)"
+      "Bash(xcodebuild:*)",
+      "Bash(find:*)",
+      "Bash(tree:*)",
+      "Bash(awk:*)",
+      "Bash(pod deintegrate:*)",
+      "Bash(export LC_ALL=en_US.UTF-8:*)",
+      "Bash(export LANG=en_US.UTF-8)",
+      "Bash(pod install)"
     ],
     "deny": [],
     "ask": []
